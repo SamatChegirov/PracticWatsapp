@@ -15,10 +15,10 @@ public class Main {
         boolean bool = true;
         while (bool) {
             try {
-                System.out.println("0");
+                System.out.println("0-басып Ватсап орнотуп алыныз.");
                 int scanZero = new Scanner(System.in).nextInt();
                 if (scanZero == 0) {
-                    System.out.println("Ватсап...");
+                    System.out.println("Ватсап орнотулду... кийинки кадам.");
                 }
                 switch (scanZero) {
                     case 0: {
